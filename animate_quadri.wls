@@ -1,8 +1,8 @@
 #!/usr/bin/env wolframscript
 
 imageFolder = "output";
-imageSize = 192 * {4, 3};
-finalSize = 480;
+finalSize = 720;
+imageSize = finalSize/3 * 6/5 * {4, 3};
 exportToPov = False;
 exportToPov = True;
 frameCount = 180;
